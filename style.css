@@ -1,0 +1,52 @@
+.container {
+    height: 500px;
+    margin: auto;
+    width: 400px;
+    padding: 50px;
+    border: 1px black solid;
+}
+input, button, p {
+    padding: 20px;
+    margin: 20px;
+    
+}
+button {
+    align-items:center;
+    margin-left: 70px;
+    background-color: grey;
+    color: black;
+}
+button:hover {
+    background-color: plum;
+    color: azure;
+}
+input {
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
+h2 {
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30px;
+    text-align: center;
+}
+.input_data {
+    border: 1px black solid;
+    background-color: rgb(241, 241, 169);
+    height: 200px;
+    width: 400px;
+}
+p {
+    margin: auto;
+    border: 1px black solid;
+    background-color: rgb(255, 182, 255);
+    height: 100px;
+    width: 300px;
+    padding: 50px;
+}
+li {
+    border: 1px black solid;
+    background-color: white;
+}
