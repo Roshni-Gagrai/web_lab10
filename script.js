@@ -42,8 +42,4 @@ clearBtn.addEventListener("click", () => {
   movieNames = [];
   updateList();
 });
-</body>
-</html>
 
-
-*/
