@@ -3,7 +3,6 @@
     margin: auto;
     width: 400px;
     padding: 50px;
-    border: 1px black solid;
 }
 input, button, p {
     padding: 20px;
@@ -12,12 +11,15 @@ input, button, p {
 }
 button {
     align-items:center;
-    margin-left: 70px;
+    margin-left: 10%;
     background-color: grey;
     color: black;
+    
+    border-radius: 10px;
+    display: inline-block;
 }
 button:hover {
-    background-color: plum;
+    background-color: black;
     color: azure;
 }
 input {
@@ -25,6 +27,9 @@ input {
     border: 2px black solid;
     background-color: white;
     color: black;
+    margin-top: 20px;
+    margin-left: 23%;
+    border-radius: 10px;
 }
 h2 {
     color: green;
@@ -33,20 +38,39 @@ h2 {
     text-align: center;
 }
 .input_data {
+    margin: auto;
     border: 1px black solid;
     background-color: rgb(241, 241, 169);
     height: 200px;
     width: 400px;
+    border-radius: 10px;
 }
-p {
+ul {
     margin: auto;
     border: 1px black solid;
     background-color: rgb(255, 182, 255);
-    height: 100px;
-    width: 300px;
-    padding: 50px;
+    height: 200px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
 }
 li {
     border: 1px black solid;
     background-color: white;
+    margin-left: 30px;
+    overflow: visible;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+span{
+    margin-left: 20px;
+    opacity: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 500;
+    cursor: context-menu;
+}
+li:hover {
+    background-color: grey;
+    color: white;
 }
